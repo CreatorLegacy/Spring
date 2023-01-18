@@ -1,0 +1,17 @@
+
+
+class name becomes @component
+
+
+initialisation of propertites using @value("actual value")
+
+
+for id in spring container
+Student std=(Student) getBean("student");//here in the id we will pass class name
+Only we can use Application Context object is needed to be created
+
+
+For xml file we need to use  
+for using annotaion it must spring context dependecy
+
+<context component scan>
